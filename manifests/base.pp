@@ -6,6 +6,7 @@ class roles::base inherits roles {
   include profiles::collectd
   include profiles::environment
   include profiles::firewall
+  include profiles::logrotate
   include profiles::lvm
   include profiles::ntp
   include profiles::postfix
