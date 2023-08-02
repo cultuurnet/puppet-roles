@@ -1,4 +1,4 @@
-class roles::mpm_web inherits ::roles::base {
+class roles::museumpas::website inherits ::roles::base {
 
   include redis
   include varnish
