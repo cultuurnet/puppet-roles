@@ -1,6 +1,5 @@
 class roles::museumpas::website inherits ::roles::base {
 
-  include redis
   include varnish
   include profiles::php
   include profiles::apache
