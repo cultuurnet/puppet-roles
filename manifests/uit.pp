@@ -6,6 +6,7 @@ class roles::uit inherits ::roles::base {
   include profiles::mysql::server
   include profiles::uit::frontend
   include profiles::uit::api
+  include profiles::uit::cms
   include profiles::uit::mail_subscriptions
   #include profiles::newrelic_infra
 }
