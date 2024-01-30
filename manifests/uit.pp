@@ -1,6 +1,7 @@
 class roles::uit inherits ::roles::base {
 
   include profiles::nodejs
+  include profiles::php
   include profiles::apache
   include profiles::redis
   include profiles::mysql::server
