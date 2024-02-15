@@ -10,5 +10,6 @@ class roles::uit inherits ::roles::base {
   include profiles::uit::cms
   include profiles::uit::mail_subscriptions
   include profiles::uit::notifications
+  include profiles::uit::recommender_frontend
   #include profiles::newrelic_infra
 }
