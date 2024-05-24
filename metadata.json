@@ -1,0 +1,20 @@
+{
+  "name": "puppet-roles",
+  "version": "0.1.0",
+  "author": "publiq",
+  "summary": "Roles provide wrapper classes that use profiles to build a complete system configuration.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/cultuurnet/puppet-roles",
+  "project_page": "https://github.com/cultuurnet/puppet-roles",
+  "issues_url": "https://github.com/cultuurnet/puppet-roles/issues",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "20.04"
+      ]
+    }
+  ],
+  "data_provider": null
+}
