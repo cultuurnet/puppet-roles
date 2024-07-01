@@ -1,6 +1,7 @@
 class roles::base inherits roles {
 
   include profiles::apt
+  include profiles::backup::client
   include profiles::ca_certificates
   include profiles::certificates
   include profiles::collectd
