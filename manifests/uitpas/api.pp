@@ -7,4 +7,8 @@ class roles::uitpas::api inherits ::roles::base {
   if $environment == 'acceptance' {
     include profiles::mysql::server
   }
+
+  if $environment == 'production' {
+    include profiles::uitpas::segmentation_dbase
+  }
 }
