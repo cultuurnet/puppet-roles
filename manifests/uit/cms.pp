@@ -5,5 +5,4 @@ class roles::uit::cms inherits ::roles::base {
   include profiles::redis
   include profiles::mysql::server
   include profiles::uit::cms
-  #include profiles::newrelic_infra
 }
