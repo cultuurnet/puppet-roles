@@ -7,6 +7,7 @@ class roles::base inherits roles {
   include profiles::collectd
   include profiles::environment
   include profiles::firewall
+  include profiles::hosts
   include profiles::logrotate
   include profiles::lvm
   include profiles::newrelic_infra
