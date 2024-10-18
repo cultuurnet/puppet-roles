@@ -10,7 +10,7 @@ class roles::base inherits roles {
   include profiles::hosts
   include profiles::logrotate
   include profiles::lvm
-  include profiles::newrelic_infra
+  include profiles::newrelic::infrastructure
   include profiles::ntp
   include profiles::postfix
   include profiles::puppet::agent
