@@ -6,4 +6,5 @@ class roles::uitdatabank::web inherits ::roles::base {
   include profiles::uitdatabank::entry_api
   include profiles::uitdatabank::websocket_server
   include profiles::uitdatabank::articlelinker
+  include profiles::uitdatabank::angular_app
 }
