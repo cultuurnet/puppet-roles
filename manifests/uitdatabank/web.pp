@@ -8,4 +8,5 @@ class roles::uitdatabank::web inherits ::roles::base {
   include profiles::uitdatabank::articlelinker
   include profiles::uitdatabank::angular_app
   include profiles::uitdatabank::frontend
+  include profiles::uitdatabank::jwt_provider_uitidv1
 }
