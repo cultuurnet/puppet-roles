@@ -5,6 +5,7 @@ class roles::museumpas::website_cache inherits ::roles::base {
   include profiles::museumpas::website
   include profiles::museumpas::automatic_renewal_mail
   include profiles::museumpas::automatic_mandates
+  include profiles::museumpas::inspect_nmbs_codes
   include profiles::redis
   include profiles::meilisearch
   include profiles::mysql::server
