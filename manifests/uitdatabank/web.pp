@@ -1,6 +1,7 @@
 class roles::uitdatabank::web inherits ::roles::base {
 
   include profiles::nodejs
+  include profiles::php
   include profiles::redis
   include profiles::apache
   include profiles::uitdatabank::entry_api
