@@ -8,4 +8,5 @@ class roles::jenkins::agent inherits roles::base {
   include profiles::python
   include profiles::docker
   include profiles::aws_cli
+  
 }
