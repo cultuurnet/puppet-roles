@@ -19,4 +19,5 @@ class roles::base inherits roles {
   include profiles::sudo
   include profiles::sysctl
   include profiles::timezone
+  include profiles::systemd
 }
