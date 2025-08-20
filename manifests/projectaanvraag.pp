@@ -6,4 +6,5 @@ class roles::projectaanvraag inherits ::roles::base {
   include profiles::mysql::server
   include profiles::apache
   include profiles::projectaanvraag::api
+  include profiles::widgetbeher::frontend
 }
