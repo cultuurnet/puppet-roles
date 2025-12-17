@@ -1,4 +1,4 @@
-class roles::logserver {
+class roles::logserver inherits roles::base {
 
   include profiles::java
   include profiles::elasticsearch
