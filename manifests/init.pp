@@ -2,7 +2,7 @@ class roles {
   case $facts['os']['name'] {
     'Ubuntu': {
       case $facts['os']['release']['major'] {
-        '20.04': {
+        '20.04', '24.04': {
           contain ::roles::base
         }
         default: {

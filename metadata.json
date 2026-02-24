@@ -12,7 +12,8 @@
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "20.04"
+        "20.04",
+        "24.04"
       ]
     }
   ],
