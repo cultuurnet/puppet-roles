@@ -14,6 +14,7 @@ class roles::base inherits roles {
   include profiles::ntp
   include profiles::postfix
   include profiles::puppet::agent
+  include profiles::python
   include profiles::rsyslog
   include profiles::ruby
   include profiles::ssh
