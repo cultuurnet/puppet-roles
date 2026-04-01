@@ -6,6 +6,4 @@ class roles::jenkins::agent inherits roles::base {
   include profiles::php
   include profiles::nodejs
   include profiles::docker
-  include profiles::aws_cli
-  
 }
