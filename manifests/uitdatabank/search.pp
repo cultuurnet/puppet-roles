@@ -1,6 +1,5 @@
 class roles::uitdatabank::search inherits ::roles::base {
 
-  include profiles::php
   include profiles::java
   include profiles::apache
   include profiles::redis
