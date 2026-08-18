@@ -7,5 +7,4 @@ class roles::uit::api inherits ::roles::base {
   include profiles::uit::api
   include profiles::uit::mail_subscriptions
   include profiles::uit::notifications
-  include profiles::uit::recommender_frontend
 }
