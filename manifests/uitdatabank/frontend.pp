@@ -1,4 +1,4 @@
-class roles::uitdatabank::frontend_docker inherits ::roles::base {
+class roles::uitdatabank::frontend inherits ::roles::base {
 
   include profiles::apache
   include profiles::uitdatabank::frontend
